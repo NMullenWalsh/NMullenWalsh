@@ -3,7 +3,7 @@ body {
 }
 header {
 	background-color: white;
-	background-image: url(Cat3.jpg);
+	background-image: url(face.jpg);
 	height: 111px;
 	background-position: right 5px top 5px;
 	background-repeat: no-repeat;
@@ -15,6 +15,8 @@ footer{
 }
 #content {
 	background-color: white;
+	padding: 15px;
+	min-height: 300px;
 }
 header, footer, #content {
 	border-style:solid;
@@ -26,4 +28,9 @@ header, footer, #content {
 	margin-right: auto;
 	width: 80%;
 	box-shadow: 5px 5px 5px black;
+}
+h1{
+	color: black;
+	font-size: 300%;
+	font-family: Cambria,Courier;
 }
